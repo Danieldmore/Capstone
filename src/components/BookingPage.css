@@ -1,0 +1,72 @@
+.booking-page {
+    background-image: url('../icons_assets/restaurant.jpg'); 
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header {
+    text-align: center;
+    color: black; /* Cambiamos el color del texto a negro */
+  }
+  
+  .booking-form-container {
+    background-color: #495E57;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 70%;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black; /* Cambiamos el color del texto a negro */
+  }
+  
+  input[type='date'],
+  input[type='time'],
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    color: black; /* Cambiamos el color del texto a negro */
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }

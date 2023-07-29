@@ -1,0 +1,55 @@
+/* Estilos para el contenedor principal */
+.menu-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Hace que el contenedor ocupe todo el alto de la pantalla */
+    background-color: #333; /* Cambia el color de fondo a gris oscuro */
+    color: white; /* Cambia el color del texto a blanco */
+  }
+  
+  /* Estilos para el fondo de imagen del rectángulo */
+  .menu-background {
+    background-image: url("../icons_assets/restauranfood.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 200px;
+  }
+  
+  /* Estilos para el contenedor del rectángulo */
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para la grilla */
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Estilos para cada elemento MenuItem */
+  .menu-item {
+    text-align: center;
+  }
+  
+
+  /* Estilos para cada elemento MenuItem */
+.menu-item {
+    text-align: center;
+
+  }
+  
+  /* Estilos para la imagen dentro de MenuItem */
+  .menu-item img {
+    margin: 50px 0;
+    width: 100%; /* La imagen ocupará el 100% del contenedor, pero mantendrá su relación de aspecto */
+    height: 200px; /* Altura fija de 200px */
+    object-fit: cover; /* Ajusta la imagen proporcionalmente dentro del contenedor */
+  }

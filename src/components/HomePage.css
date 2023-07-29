@@ -1,0 +1,47 @@
+/* Estilos para el rectángulo verde */
+.rectangulo-verde {
+    background-color: #495E57;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos para el rectángulo blanco */
+  .rectangulo-blanco {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Estilos para los cuadrados grises */
+  .cuadrados-grises {
+    display: flex;
+  }
+  
+  .cuadrado-gris {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+  }
+  
+  /* Estilos para el rectángulo verde con cuadrados blancos */
+  .rectangulo-verde-con-cuadrados-blancos {
+    background-color: #495E57;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .cuadrado-blanco {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+  }
+  
+  /* Estilos para el rectángulo blanco con dos columnas */
+  .rectangulo-blanco-con-dos-columnas {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+  }
